@@ -27,7 +27,7 @@
     transition: background-color 0.2s ease;
   }
   
-  /* Botão de concluir (verde) */
+  /* Botão de concluir */
   .task-item button:nth-child(1) {
     background-color: #28a745;
   }
@@ -35,7 +35,7 @@
     background-color: #1e7e34;
   }
   
-  /* Botão de excluir (vermelho) */
+  /* Botão de excluir */
   .task-item button:nth-child(2) {
     background-color: #dc3545;
   }
@@ -43,7 +43,7 @@
     background-color: #a71d2a;
   }
   
-  /* Botão de editar (azul) */
+  /* Botão de editar*/
   .task-item button:nth-child(3) {
     background-color: #007bff;
   }

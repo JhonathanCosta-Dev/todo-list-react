@@ -78,8 +78,7 @@ function App() {
   onDelete={handleDelete}
   onEdit={setEditingTask}
 />
-
-    </div>
+</div>
   );
   
 }
