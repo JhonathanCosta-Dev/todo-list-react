@@ -1,0 +1,42 @@
+.task-filter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .task-filter button {
+    padding: 0.5rem 1rem;
+    background-color: #795833;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition:  0.2s ease;
+  }
+  
+  .task-filter button:hover {
+    background-color: #303030;
+  }
+
+  .task-filter-category {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .task-filter-category button {
+    padding: 8px;
+    background-color: #795833;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition:  0.2s ease;
+  }
+  .task-filter-category button:hover {
+    background-color: #303030;
+
+  }
+  
+  
