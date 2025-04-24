@@ -1,0 +1,53 @@
+.task-item {
+    background-color: #b99d7f;
+
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .task-item.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+  }
+  
+  .task-item button {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Botão de concluir (verde) */
+  .task-item button:nth-child(1) {
+    background-color: #28a745;
+  }
+  .task-item button:nth-child(1):hover {
+    background-color: #1e7e34;
+  }
+  
+  /* Botão de excluir (vermelho) */
+  .task-item button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  .task-item button:nth-child(2):hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Botão de editar (azul) */
+  .task-item button:nth-child(3) {
+    background-color: #007bff;
+  }
+  .task-item button:nth-child(3):hover {
+    background-color: #0056b3;
+  }
+  
