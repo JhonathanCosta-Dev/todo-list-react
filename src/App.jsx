@@ -35,7 +35,7 @@ function App() {
   });
 
   const [filter, setFilter] = useState('all');
-  const [editingTask, setEditingTask] = useState(null);
+  const [editingTask, setEditingTask] = useState(null); // Agora a variável `editingTask` está corretamente definida aqui
 
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(tasks));
@@ -48,7 +48,7 @@ function App() {
           ? { ...task, id: editingTask.id, completed: editingTask.completed }
           : t
       ));
-      setEditingTask(null);
+      setEditingTask(null); // Limpa a edição após salvar
     } else {
       setTasks([...tasks, { ...task, id: Date.now(), completed: false }]);
     }
